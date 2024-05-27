@@ -1,0 +1,3 @@
+/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles/tudoVM.dir
+/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles/edit_cache.dir
+/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles/rebuild_cache.dir
