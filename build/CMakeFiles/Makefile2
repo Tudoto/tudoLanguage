@@ -81,12 +81,12 @@ clean: CMakeFiles/tudoVM.dir/clean
 CMakeFiles/tudoVM.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=1,2,3 "Built target tudoVM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target tudoVM"
 .PHONY : CMakeFiles/tudoVM.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tudoVM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tudoVM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles 0
 .PHONY : CMakeFiles/tudoVM.dir/rule

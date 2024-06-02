@@ -69,24 +69,10 @@ include CMakeFiles/tudoVM.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tudoVM.dir/flags.make
 
-CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o: CMakeFiles/tudoVM.dir/flags.make
-CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/lexicalAnalysis.cpp
-CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o -MF CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o.d -o CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/lexicalAnalysis.cpp
-
-CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangenqi/Documents/github/tudoVM/src/lexicalAnalysis.cpp > CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.i
-
-CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/lexicalAnalysis.cpp -o CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.s
-
 CMakeFiles/tudoVM.dir/src/main.cpp.o: CMakeFiles/tudoVM.dir/flags.make
 CMakeFiles/tudoVM.dir/src/main.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/main.cpp
 CMakeFiles/tudoVM.dir/src/main.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tudoVM.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tudoVM.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/main.cpp.o -MF CMakeFiles/tudoVM.dir/src/main.cpp.o.d -o CMakeFiles/tudoVM.dir/src/main.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/main.cpp
 
 CMakeFiles/tudoVM.dir/src/main.cpp.i: cmake_force
@@ -97,19 +83,81 @@ CMakeFiles/tudoVM.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/main.cpp -o CMakeFiles/tudoVM.dir/src/main.cpp.s
 
+CMakeFiles/tudoVM.dir/src/ast.cpp.o: CMakeFiles/tudoVM.dir/flags.make
+CMakeFiles/tudoVM.dir/src/ast.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/ast.cpp
+CMakeFiles/tudoVM.dir/src/ast.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tudoVM.dir/src/ast.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/ast.cpp.o -MF CMakeFiles/tudoVM.dir/src/ast.cpp.o.d -o CMakeFiles/tudoVM.dir/src/ast.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/ast.cpp
+
+CMakeFiles/tudoVM.dir/src/ast.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tudoVM.dir/src/ast.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangenqi/Documents/github/tudoVM/src/ast.cpp > CMakeFiles/tudoVM.dir/src/ast.cpp.i
+
+CMakeFiles/tudoVM.dir/src/ast.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/ast.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/ast.cpp -o CMakeFiles/tudoVM.dir/src/ast.cpp.s
+
+CMakeFiles/tudoVM.dir/src/paser.cpp.o: CMakeFiles/tudoVM.dir/flags.make
+CMakeFiles/tudoVM.dir/src/paser.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/paser.cpp
+CMakeFiles/tudoVM.dir/src/paser.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tudoVM.dir/src/paser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/paser.cpp.o -MF CMakeFiles/tudoVM.dir/src/paser.cpp.o.d -o CMakeFiles/tudoVM.dir/src/paser.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/paser.cpp
+
+CMakeFiles/tudoVM.dir/src/paser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tudoVM.dir/src/paser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangenqi/Documents/github/tudoVM/src/paser.cpp > CMakeFiles/tudoVM.dir/src/paser.cpp.i
+
+CMakeFiles/tudoVM.dir/src/paser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/paser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/paser.cpp -o CMakeFiles/tudoVM.dir/src/paser.cpp.s
+
+CMakeFiles/tudoVM.dir/src/visitor.cpp.o: CMakeFiles/tudoVM.dir/flags.make
+CMakeFiles/tudoVM.dir/src/visitor.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/visitor.cpp
+CMakeFiles/tudoVM.dir/src/visitor.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tudoVM.dir/src/visitor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/visitor.cpp.o -MF CMakeFiles/tudoVM.dir/src/visitor.cpp.o.d -o CMakeFiles/tudoVM.dir/src/visitor.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/visitor.cpp
+
+CMakeFiles/tudoVM.dir/src/visitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tudoVM.dir/src/visitor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangenqi/Documents/github/tudoVM/src/visitor.cpp > CMakeFiles/tudoVM.dir/src/visitor.cpp.i
+
+CMakeFiles/tudoVM.dir/src/visitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/visitor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/visitor.cpp -o CMakeFiles/tudoVM.dir/src/visitor.cpp.s
+
+CMakeFiles/tudoVM.dir/src/codegen.cpp.o: CMakeFiles/tudoVM.dir/flags.make
+CMakeFiles/tudoVM.dir/src/codegen.cpp.o: /Users/zhangenqi/Documents/github/tudoVM/src/codegen.cpp
+CMakeFiles/tudoVM.dir/src/codegen.cpp.o: CMakeFiles/tudoVM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tudoVM.dir/src/codegen.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tudoVM.dir/src/codegen.cpp.o -MF CMakeFiles/tudoVM.dir/src/codegen.cpp.o.d -o CMakeFiles/tudoVM.dir/src/codegen.cpp.o -c /Users/zhangenqi/Documents/github/tudoVM/src/codegen.cpp
+
+CMakeFiles/tudoVM.dir/src/codegen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tudoVM.dir/src/codegen.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangenqi/Documents/github/tudoVM/src/codegen.cpp > CMakeFiles/tudoVM.dir/src/codegen.cpp.i
+
+CMakeFiles/tudoVM.dir/src/codegen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tudoVM.dir/src/codegen.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangenqi/Documents/github/tudoVM/src/codegen.cpp -o CMakeFiles/tudoVM.dir/src/codegen.cpp.s
+
 # Object files for target tudoVM
 tudoVM_OBJECTS = \
-"CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o" \
-"CMakeFiles/tudoVM.dir/src/main.cpp.o"
+"CMakeFiles/tudoVM.dir/src/main.cpp.o" \
+"CMakeFiles/tudoVM.dir/src/ast.cpp.o" \
+"CMakeFiles/tudoVM.dir/src/paser.cpp.o" \
+"CMakeFiles/tudoVM.dir/src/visitor.cpp.o" \
+"CMakeFiles/tudoVM.dir/src/codegen.cpp.o"
 
 # External object files for target tudoVM
 tudoVM_EXTERNAL_OBJECTS =
 
-tudoVM: CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o
 tudoVM: CMakeFiles/tudoVM.dir/src/main.cpp.o
+tudoVM: CMakeFiles/tudoVM.dir/src/ast.cpp.o
+tudoVM: CMakeFiles/tudoVM.dir/src/paser.cpp.o
+tudoVM: CMakeFiles/tudoVM.dir/src/visitor.cpp.o
+tudoVM: CMakeFiles/tudoVM.dir/src/codegen.cpp.o
 tudoVM: CMakeFiles/tudoVM.dir/build.make
 tudoVM: CMakeFiles/tudoVM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tudoVM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhangenqi/Documents/github/tudoVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tudoVM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tudoVM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,7 @@
-CMakeFiles/tudoVM.dir/src/main.cpp.o: \
-  /Users/zhangenqi/Documents/github/tudoVM/src/main.cpp \
+CMakeFiles/tudoVM.dir/src/visitor.cpp.o: \
+  /Users/zhangenqi/Documents/github/tudoVM/src/visitor.cpp \
+  /Users/zhangenqi/Documents/github/tudoVM/src/visitor.h \
+  /Users/zhangenqi/Documents/github/tudoVM/src/ast.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -730,10 +732,4 @@ CMakeFiles/tudoVM.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/zhangenqi/Documents/github/tudoVM/src/paser.h \
-  /Users/zhangenqi/Documents/github/tudoVM/src/ast.h \
-  /Users/zhangenqi/Documents/github/tudoVM/src/visitor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque \
-  /Users/zhangenqi/Documents/github/tudoVM/src/codegen.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h

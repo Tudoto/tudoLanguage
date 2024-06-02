@@ -129,29 +129,53 @@ tudoVM/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/build
 .PHONY : tudoVM/fast
 
-src/lexicalAnalysis.o: src/lexicalAnalysis.cpp.o
-.PHONY : src/lexicalAnalysis.o
+src/ast.o: src/ast.cpp.o
+.PHONY : src/ast.o
 
 # target to build an object file
-src/lexicalAnalysis.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.o
-.PHONY : src/lexicalAnalysis.cpp.o
+src/ast.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/ast.cpp.o
+.PHONY : src/ast.cpp.o
 
-src/lexicalAnalysis.i: src/lexicalAnalysis.cpp.i
-.PHONY : src/lexicalAnalysis.i
+src/ast.i: src/ast.cpp.i
+.PHONY : src/ast.i
 
 # target to preprocess a source file
-src/lexicalAnalysis.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.i
-.PHONY : src/lexicalAnalysis.cpp.i
+src/ast.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/ast.cpp.i
+.PHONY : src/ast.cpp.i
 
-src/lexicalAnalysis.s: src/lexicalAnalysis.cpp.s
-.PHONY : src/lexicalAnalysis.s
+src/ast.s: src/ast.cpp.s
+.PHONY : src/ast.s
 
 # target to generate assembly for a file
-src/lexicalAnalysis.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/lexicalAnalysis.cpp.s
-.PHONY : src/lexicalAnalysis.cpp.s
+src/ast.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/ast.cpp.s
+.PHONY : src/ast.cpp.s
+
+src/codegen.o: src/codegen.cpp.o
+.PHONY : src/codegen.o
+
+# target to build an object file
+src/codegen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/codegen.cpp.o
+.PHONY : src/codegen.cpp.o
+
+src/codegen.i: src/codegen.cpp.i
+.PHONY : src/codegen.i
+
+# target to preprocess a source file
+src/codegen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/codegen.cpp.i
+.PHONY : src/codegen.cpp.i
+
+src/codegen.s: src/codegen.cpp.s
+.PHONY : src/codegen.s
+
+# target to generate assembly for a file
+src/codegen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/codegen.cpp.s
+.PHONY : src/codegen.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,6 +201,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/paser.o: src/paser.cpp.o
+.PHONY : src/paser.o
+
+# target to build an object file
+src/paser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/paser.cpp.o
+.PHONY : src/paser.cpp.o
+
+src/paser.i: src/paser.cpp.i
+.PHONY : src/paser.i
+
+# target to preprocess a source file
+src/paser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/paser.cpp.i
+.PHONY : src/paser.cpp.i
+
+src/paser.s: src/paser.cpp.s
+.PHONY : src/paser.s
+
+# target to generate assembly for a file
+src/paser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/paser.cpp.s
+.PHONY : src/paser.cpp.s
+
+src/visitor.o: src/visitor.cpp.o
+.PHONY : src/visitor.o
+
+# target to build an object file
+src/visitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/visitor.cpp.o
+.PHONY : src/visitor.cpp.o
+
+src/visitor.i: src/visitor.cpp.i
+.PHONY : src/visitor.i
+
+# target to preprocess a source file
+src/visitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/visitor.cpp.i
+.PHONY : src/visitor.cpp.i
+
+src/visitor.s: src/visitor.cpp.s
+.PHONY : src/visitor.s
+
+# target to generate assembly for a file
+src/visitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tudoVM.dir/build.make CMakeFiles/tudoVM.dir/src/visitor.cpp.s
+.PHONY : src/visitor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tudoVM"
-	@echo "... src/lexicalAnalysis.o"
-	@echo "... src/lexicalAnalysis.i"
-	@echo "... src/lexicalAnalysis.s"
+	@echo "... src/ast.o"
+	@echo "... src/ast.i"
+	@echo "... src/ast.s"
+	@echo "... src/codegen.o"
+	@echo "... src/codegen.i"
+	@echo "... src/codegen.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/paser.o"
+	@echo "... src/paser.i"
+	@echo "... src/paser.s"
+	@echo "... src/visitor.o"
+	@echo "... src/visitor.i"
+	@echo "... src/visitor.s"
 .PHONY : help
 
 

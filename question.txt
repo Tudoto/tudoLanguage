@@ -1,0 +1,25 @@
+在token.h中
+static std::queue<token *> tokens;
+static pushtoken(){
+    token* t = new token();
+    tokens.push(t)
+}
+
+static gettoken(){
+    if(tokens.front()) {return nullptr}
+    return tokens.front();
+}
+
+在main.cpp中
+main(){
+    pushtoken();
+    A * a = new a ();
+    a -> foo();
+}
+
+在foo.h中
+class A{
+    foo(){gettoken()};
+}
+
+此时总有gettoken返回为空，但是在main函数中直接使用gettoken，返回值不为空，这是为什么？
