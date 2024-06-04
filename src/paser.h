@@ -54,7 +54,7 @@ public:
     }
     void splitTokens()
     {
-        FILE *fp = fopen("test_token.txt", "r");
+        FILE *fp = fopen("../test_token.txt", "r");
         if (fp == nullptr)
         {
             printf("failed to open the file, please check!\n");
